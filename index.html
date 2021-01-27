@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="image/favicon.png">
+    <title>trillo &mdash; Your all-in-one booking app</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="image/logo.png" alt="trillo logo" class="logo">
+            <form action="#" class="search">
+                <input type="text" class="search_input" placeholder="Search Hotels">
+                <button class="search_button">
+                    <svg class="search_icon">
+                        <use xlink:href="image/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+                <!-- -----------------   FROM HERE    1ST PART----------------------------     -->
+                <div class="suggestion">
+                    <div class="suggestion_item">
+                        <img src="image/hotel-1.jpg" alt="Monarch Beach Resort" class="suggestion_photo">
+                        <div class="suggestion_info-box">
+                            <h3 class="suggestion_name">Monarch Beach Resort</h3>
+                            <p class="suggestion_location">Orange County, California</p>
+                        </div>
+                        <div class="suggestion_stars">
+                            <div class="overview_stars">
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="suggestion_rating-average">5.0</div>
+                    </div>
+                    <div class="suggestion_item">
+                        <img src="image/hotel-2.jpg" alt="Salinda Resort" class="suggestion_photo">
+                        <div class="suggestion_info-box">
+                            <h3 class="suggestion_name">Salinda Resort</h3>
+                            <p class="suggestion_location">Phu Quoc Island, Vietnam</p>
+                        </div>
+                        <div class="suggestion_stars">
+                            <div class="overview_stars">
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="suggestion_rating-average">5.0</div>
+                    </div>
+                    <div class="suggestion_item">
+                        <img src="image/hotel-3.jpg" alt="White Swan Hotel" class="suggestion_photo">
+                        <div class="suggestion_info-box">
+                            <h3 class="suggestion_name">White Swan Hotel</h3>
+                            <p class="suggestion_location">Guangzhou, China</p>
+                        </div>
+                        <div class="suggestion_stars">
+                            <div class="overview_stars">
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                                <svg class="overview_icon-star suggestion_stars">
+                                    <use xlink:href="image/sprite.svg#icon-star"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="suggestion__rating-average">4.0</div>
+                    </div>
+                </div>
+                <!-- ---------------------------    TO HERE   ---------------------------------- -->
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav_icon-box">
+                    <svg class="user-nav_icon">
+                        <use xlink:href="image/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav_notification">7</span>
+                    <!-- ------------------------   FROM HERE 2ND PART  NOTIFICATION 7 ---------------------------------- -->
+                    <div class="user-nav_chat">
+                        <h2 class="user-nav_chat_head">Bookmark</h2>
+                        <div class="user-nav_chat_item">
+                            <img src="image/user-1.jpg" alt="Hotel Las Palmas Photo" class="user-nav_chat_photo">
+                            <div class="user-nav_chat_info-box">
+                                <p class="user-nav_chat_name">Mike Waltz</p>
+                                <p class="user-nav_chat_preview">Lorem ipsum dolor sit amet ...</p>
+                            </div>
+                            <div class="user-nav_chat_timestamp">
+                                <div class="user-nav_chat_time">12:15pm</div>
+                                <p class="user-nav_chat_date">Oct 8, 2018</p>
+                            </div>
+                        </div>
+                        <div class="user-nav_chat_item">
+                            <img src="image/user-2.jpg" alt="Hotel Las Palmas Photo" class="user-nav_chat_photo">
+                            <div class="user-nav_chat_info-box">
+                                <p class="user-nav_chat_name">Jessica Natou</p>
+                                <p class="user-nav_chat_preview">Lorem ipsum dolor sit amet ...</p>
+                            </div>
+                            <div class="user-nav_chat_timestamp">
+                                <div class="user-nav_chat_time">5:53pm</div>
+                                <p class="user-nav_chat_date">Oct 1, 2018</p>
+                            </div>
+                        </div>
+                        <div class="user-nav_chat_item">
+                            <img src="image/user-3.jpg" alt="Hotel Las Palmas Photo" class="user-nav_chat_photo">
+                            <div class="user-nav_chat_info-box">
+                                <p class="user-nav_chat_name">John Briefcase</p>
+                                <p class="user-nav_chat_preview">Lorem ipsum dolor sit amet ...</p>
+                            </div>
+                            <div class="user-nav_chat_timestamp">
+                                <div class="user-nav_chat_time">2:36pm</div>
+                                <p class="user-nav_chat_date">Sept 14, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------- TO HERE  ----------------------------- -->
+                </div>
+                <div class="user-nav_icon-box">
+                    <svg class="user-nav_icon">
+                        <use xlink:href="image/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav_notification">13</span>
+                    <!-- ------------------------   FROM HERE 3RD PART NOTIFICATION 13 ---------------------------------- -->
+                    <div class="user-nav_chat">
+                        <h2 class="user-nav_chat_head">Messages</h2>
+                        <div class="user-nav_chat_item">
+                            <img src="image/user-1.jpg" alt="Hotel Las Palmas Photo" class="user-nav_chat_photo">
+                            <div class="user-nav_chat_info-box">
+                                <p class="user-nav_chat_name">Mike Waltz</p>
+                                <p class="user-nav_chat_preview">Lorem ipsum dolor sit amet ...</p>
+                            </div>
+                            <div class="user-nav_chat_timestamp">
+                                <div class="user-nav_chat_time">12:15pm</div>
+                                <p class="user-nav_chat_date">Oct 8, 2018</p>
+                            </div>
+                        </div>
+                        <div class="user-nav_chat_item">
+                            <img src="image/user-2.jpg" alt="Hotel Las Palmas Photo" class="user-nav_chat_photo">
+                            <div class="user-nav_chat_info-box">
+                                <p class="user-nav_chat_name">Jessica Natou</p>
+                                <p class="user-nav_chat_preview">Lorem ipsum dolor sit amet ...</p>
+                            </div>
+                            <div class="user-nav_chat_timestamp">
+                                <div class="user-nav_chat_time">5:53pm</div>
+                                <p class="user-nav_chat_date">Oct 1, 2018</p>
+                            </div>
+                        </div>
+                        <div class="user-nav_chat_item">
+                            <img src="image/user-3.jpg" alt="Hotel Las Palmas Photo" class="user-nav_chat_photo">
+                            <div class="user-nav_chat_info-box">
+                                <p class="user-nav_chat_name">John Briefcase</p>
+                                <p class="user-nav_chat_preview">Lorem ipsum dolor sit amet ...</p>
+                            </div>
+                            <div class="user-nav_chat_timestamp">
+                                <div class="user-nav_chat_time">2:36pm</div>
+                                <p class="user-nav_chat_date">Sept 14, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------------------   TO HERE ---------------------------------- -->
+                </div>
+                <div class="user-nav_user">
+                    <img src="image/ponx8r.jpg" alt="user photo" class="user-nav_user-photo">
+                    <span class="user-nav_user-name">PiscoRobi</span>
+                    <!--          4TH PART       FROM HERE                               -->
+                    <div class="user-nav_profile">
+                        <h2 class="user-nav_profile_header">Profile</h2>
+                        <div class="user-nav_profile_item-box">
+                            <div class="user-nav_profile_item">
+                                <a href="#" class="user-nav_profile_link">
+                                    <svg class="user-nav_profile_icon">
+                                        <use xlink:href="image/sprite.svg#icon-user"></use>
+                                        <span class="profile_name">Account</span>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="user-nav_profile_item">
+                                <a href="#" class="user-nav_profile_link">
+                                    <svg class="user-nav_profile_icon">
+                                        <use xlink:href="image/sprite.svg#icon-bell"></use>
+                                        <span class="profile_name">Shopping Cart</span>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="user-nav_profile_item">
+                                <a href="#" class="user-nav_profile_link">
+                                    <svg class="user-nav_profile_icon">
+                                        <use xlink:href="image/sprite.svg#icon-credit-card"></use>
+                                        <span class="profile_name">Payment Methods</span>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="user-nav_profile_item">
+                                <a href="#" class="user-nav_profile_link">
+                                    <svg class="user-nav_profile_icon">
+                                        <use xlink:href="image/sprite.svg#icon-log-out"></use>
+                                        <span class="profile_name">Log Out</span>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------------------------   TO HERE  4TH PART ---------------------------------- -->
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav_item_active">
+                        <a href="#" class="side-nav_link">
+                            <svg class="side-nav_icon">
+                                <use xlink:href="image/sprite.svg#icon-home"></use>
+                            </svg>
+                            <span>Hotel</span>
+                        </a>
+                    </li>
+                    <li class="side-nav_item">
+                        <a href="#" class="side-nav_link">
+                            <svg class="side-nav_icon">
+                                <use xlink:href="image/sprite.svg#icon-aircraft-take-off"></use>
+                            </svg>
+                            <span>Flight</span>
+                        </a>
+                    </li>
+                    <li class="side-nav_item">
+                        <a href="#" class="side-nav_link">
+                            <svg class="side-nav_icon">
+                                <use xlink:href="image/sprite.svg#icon-key"></use>
+                            </svg>
+                            <span>Car rental</span>
+                        </a>
+                    </li>
+                    <li class="side-nav_item">
+                        <a href="#" class="side-nav_link">
+                            <svg class="side-nav_icon">
+                                <use xlink:href="image/sprite.svg#icon-map"></use>
+                            </svg>
+                            <span>Tours</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    By <a href="https://www.piscorobi.com/" 
+                            target="_blank" 
+                            style="color: #FFEF00; text-decoration: none;">
+                                piscorobi.com
+                        </a> &copy; 
+                        <span id="year"></span>.<br>
+                    All rights reserved.
+                </div>
+            </nav>
+            <main class="hotel-view">
+                <div class="gallery">
+                    <figure class="gallery_item">
+                        <img src="image/hotel-1.jpg" alt="hotel1" class="gallery_photo">
+                        <figcaption class="gallery_title">Hotel Barbara</figcaption>
+                    </figure>
+                    <figure class="gallery_item">
+                        <img src="image/hotel-2.jpg" alt="hotel2" class="gallery_photo">
+                        <figcaption class="gallery_title">Hotel Jiff Corn</figcaption>
+                    </figure>
+                    <figure class="gallery_item">
+                        <img src="image/hotel-3.jpg" alt="hotel3" class="gallery_photo">
+                        <figcaption class="gallery_title">Hotel Marthon</figcaption>
+                    </figure>
+                </div>
+                <div class="overview">
+                    <h1 class="overview_heading">Hotel Armor Glay</h1>
+                    <div class="overview_stars">
+                        <svg class="overview_icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview_icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview_icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview_icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview_icon-star">
+                            <use xlink:href="image/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+                    <div class="overview_location">
+                        <svg class="overview_icon-location">
+                            <use xlink:href="image/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">New York,USA</button>
+                    </div>
+                    <div class="overview_rating">
+                        <div class="overview_rating-average">8.3</div>
+                        <div class="overview_rating-count">430 votes</div>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="description">
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Sagittis id consectetur purus ut faucibus pulvinar. Integer
+                            feugiat scelerisque varius morbi enim nunc.
+                        </p>
+                        <p class="paragraph">
+                            Ullamcorper morbi tincidunt ornare massa eget egestas purus. Diam phasellus vestibulum lorem
+                            sed risus ultricies tristique nulla aliquet. Vestibulum morbi blandit cursus risus at
+                            ultrices mi. Amet purus gravida quis blandit.
+                        </p>
+                        <ul class="list">
+                            <li class="list_item">close to beach</li>
+                            <li class="list_item">breakfast include</li>
+                            <li class="list_item">free shuttle to airport</li>
+                            <li class="list_item">free wifi</li>
+                            <li class="list_item">air conditioning heating</li>
+                            <li class="list_item">pet allowed</li>
+                            <li class="list_item">all languages</li>
+                            <li class="list_item">perfect for families</li>
+                        </ul>
+                        <div class="recommend">
+                            <p class="recommend_count">
+                                Ann and 3 other friends recommend this hotel.
+                            </p>
+                            <div class="recommend_friends">
+                                <img src="image/user-1.jpg" alt="friend 1" class="recommend_photo">
+                                <img src="image/user-2.jpg" alt="friend 2" class="recommend_photo">
+                                <img src="image/user-3.jpg" alt="friend 3" class="recommend_photo">
+                                <img src="image/user-4.jpg" alt="friend 4" class="recommend_photo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-reviews">
+                        <figure class="review">
+                            <blockquote class="review_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </blockquote>
+                            <figcaption class="review_user">
+                                <img src="image/user-1.jpg" alt="user 1" class="review_photo">
+                                <div class="review_user-box">
+                                    <p class="review_user-name">Nick Sam</p>
+                                    <p class="review_user-data">Feb 12th,2019</p>
+                                </div>
+                                <div class="review_rating">8.6</div>
+                            </figcaption>
+                        </figure>
+                        <figure class="review">
+                            <blockquote class="review_text">
+                                Ullamcorper morbi tincidunt ornare massa eget egestas purus. Diam phasellus vestibulum
+                                lorem sed risus ultricies tristique nulla aliquet.
+                            </blockquote>
+                            <figcaption class="review_user">
+                                <img src="image/user-2.jpg" alt="user 2" class="review_photo">
+                                <div class="review_user-box">
+                                    <p class="review_user-name">Tylor Swift</p>
+                                    <p class="review_user-data">Jan 10th,2019</p>
+                                </div>
+                                <div class="review_rating">9.2</div>
+                            </figcaption>
+                        </figure>
+                        <button class="btn-inline">Show all <span>&rarr;</span></button>
+                    </div>
+                </div>
+                <div class="cta">
+                    <h2 class="cta_book-now">
+                        Good news!We have 4 free rooms for your selected dates!
+                    </h2>
+                    <button class="btn">
+                        <span class="btn_visible">book now</span>
+                        <span class="btn_invisible">Only 4 rooms left</span>
+                    </button>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script>
+        //Get the current year of the copy right
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
